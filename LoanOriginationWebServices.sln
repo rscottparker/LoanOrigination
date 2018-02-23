@@ -1,0 +1,178 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27323.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanOrigination.API", "LoanOrigination.API\LoanOrigination.API.csproj", "{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanOrigination.API.BusinessLayer", "LoanOrigination.API.BusinessLayer\LoanOrigination.API.BusinessLayer.csproj", "{471B0623-184D-44B3-9E11-09F0A9354777}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanOrigination.API.DataLayer", "LoanOrigination.API.DataLayer\LoanOrigination.API.DataLayer.csproj", "{F559E0AF-471E-4123-8C25-D117B0359D8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanOrigination.API.Entity", "LoanOrigination.API.Entity\LoanOrigination.API.Entity.csproj", "{D0441074-6187-45E6-AA10-DD29DFCA251F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanOrigination.WcfService", "LoanOrigination.WcfService\LoanOrigination.WcfService.csproj", "{5830225F-BAB7-4C75-8E11-9969D0AE3576}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AgFirst.Common.Extensions", "..\..\..\CommonComponents\SourceCode\AgFirst\AgFirst.Common.Extensions\AgFirst.Common.Extensions\AgFirst.Common.Extensions.vbproj", "{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanOrigination.Entities", "LoanOrigination.Entities\LoanOrigination.Entities.csproj", "{C3400830-C3A8-454F-A2D9-70A8C822FA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanOrigination.BusinessLayer", "LoanOrigination.BusinessLayer\LoanOrigination.BusinessLayer.csproj", "{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanOrigination.DataLayer", "LoanOrigination.DataLayer\LoanOrigination.DataLayer.csproj", "{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanOrigination.Utilities", "LoanOrigination.Utilities\LoanOrigination.Utilities.csproj", "{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Deploy|Any CPU = Deploy|Any CPU
+		DevInt|Any CPU = DevInt|Any CPU
+		Release|Any CPU = Release|Any CPU
+		UnitTest|Any CPU = UnitTest|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.Deploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.Deploy|Any CPU.Build.0 = Debug|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.DevInt|Any CPU.ActiveCfg = Debug|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.DevInt|Any CPU.Build.0 = Debug|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{961A33CA-01BF-4CC4-86F6-BDBB0BEA0BB3}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.Deploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.Deploy|Any CPU.Build.0 = Debug|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.DevInt|Any CPU.ActiveCfg = Debug|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.DevInt|Any CPU.Build.0 = Debug|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{471B0623-184D-44B3-9E11-09F0A9354777}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.Deploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.Deploy|Any CPU.Build.0 = Debug|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.DevInt|Any CPU.ActiveCfg = Debug|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.DevInt|Any CPU.Build.0 = Debug|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{F559E0AF-471E-4123-8C25-D117B0359D8D}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.Deploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.Deploy|Any CPU.Build.0 = Debug|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.DevInt|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.DevInt|Any CPU.Build.0 = Debug|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{D0441074-6187-45E6-AA10-DD29DFCA251F}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.DevInt|Any CPU.ActiveCfg = Deploy|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.DevInt|Any CPU.Build.0 = Deploy|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.UnitTest|Any CPU.ActiveCfg = Deploy|Any CPU
+		{5830225F-BAB7-4C75-8E11-9969D0AE3576}.UnitTest|Any CPU.Build.0 = Deploy|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.Deploy|Any CPU.ActiveCfg = DevInt|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.Deploy|Any CPU.Build.0 = DevInt|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.DevInt|Any CPU.ActiveCfg = DevInt|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.DevInt|Any CPU.Build.0 = DevInt|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.UnitTest|Any CPU.ActiveCfg = UnitTest|Any CPU
+		{E0D56D0B-03C7-4FF9-A17D-E50121020EB5}.UnitTest|Any CPU.Build.0 = UnitTest|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.DevInt|Any CPU.ActiveCfg = Deploy|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.DevInt|Any CPU.Build.0 = Deploy|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.UnitTest|Any CPU.ActiveCfg = Deploy|Any CPU
+		{C3400830-C3A8-454F-A2D9-70A8C822FA57}.UnitTest|Any CPU.Build.0 = Deploy|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.DevInt|Any CPU.ActiveCfg = Deploy|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.DevInt|Any CPU.Build.0 = Deploy|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.UnitTest|Any CPU.ActiveCfg = Deploy|Any CPU
+		{2C9CA6CA-5585-43FB-88A5-D6568F6EC7C0}.UnitTest|Any CPU.Build.0 = Deploy|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.DevInt|Any CPU.ActiveCfg = Deploy|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.DevInt|Any CPU.Build.0 = Deploy|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.UnitTest|Any CPU.ActiveCfg = Deploy|Any CPU
+		{9931DC1B-9816-41C1-8A34-AF5BA04A1EBB}.UnitTest|Any CPU.Build.0 = Deploy|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.DevInt|Any CPU.ActiveCfg = Deploy|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.DevInt|Any CPU.Build.0 = Deploy|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.UnitTest|Any CPU.ActiveCfg = Deploy|Any CPU
+		{64AB8C0A-C348-4BAC-95C4-22A689AA58E9}.UnitTest|Any CPU.Build.0 = Deploy|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {252DF2C4-567A-4EA7-BE80-DCFF2C2D0BD6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.agfirst.net:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LoanOrigination.API\\LoanOrigination.API.csproj
+		SccProjectName1 = LoanOrigination.API
+		SccLocalPath1 = LoanOrigination.API
+		SccProjectUniqueName2 = LoanOrigination.API.BusinessLayer\\LoanOrigination.API.BusinessLayer.csproj
+		SccProjectName2 = LoanOrigination.API.BusinessLayer
+		SccLocalPath2 = LoanOrigination.API.BusinessLayer
+		SccProjectUniqueName3 = LoanOrigination.API.DataLayer\\LoanOrigination.API.DataLayer.csproj
+		SccProjectName3 = LoanOrigination.API.DataLayer
+		SccLocalPath3 = LoanOrigination.API.DataLayer
+		SccProjectUniqueName4 = LoanOrigination.API.Entity\\LoanOrigination.API.Entity.csproj
+		SccProjectName4 = LoanOrigination.API.Entity
+		SccLocalPath4 = LoanOrigination.API.Entity
+		SccProjectUniqueName5 = LoanOrigination.WcfService\\LoanOrigination.WcfService.csproj
+		SccProjectName5 = LoanOrigination.WcfService
+		SccLocalPath5 = LoanOrigination.WcfService
+		SccProjectUniqueName6 = ..\\..\\..\\CommonComponents\\SourceCode\\AgFirst\\AgFirst.Common.Extensions\\AgFirst.Common.Extensions\\AgFirst.Common.Extensions.vbproj
+		SccProjectName6 = ../../../CommonComponents/SourceCode/AgFirst/AgFirst.Common.Extensions/AgFirst.Common.Extensions
+		SccLocalPath6 = ..\\..\\..\\CommonComponents\\SourceCode\\AgFirst\\AgFirst.Common.Extensions\\AgFirst.Common.Extensions
+		SccProjectUniqueName7 = LoanOrigination.Entities\\LoanOrigination.Entities.csproj
+		SccProjectName7 = LoanOrigination.Entities
+		SccLocalPath7 = LoanOrigination.Entities
+		SccProjectUniqueName8 = LoanOrigination.BusinessLayer\\LoanOrigination.BusinessLayer.csproj
+		SccProjectName8 = LoanOrigination.BusinessLayer
+		SccLocalPath8 = LoanOrigination.BusinessLayer
+		SccProjectUniqueName9 = LoanOrigination.DataLayer\\LoanOrigination.DataLayer.csproj
+		SccProjectName9 = LoanOrigination.DataLayer
+		SccLocalPath9 = LoanOrigination.DataLayer
+		SccProjectUniqueName10 = LoanOrigination.Utilities\\LoanOrigination.Utilities.csproj
+		SccProjectName10 = LoanOrigination.Utilities
+		SccLocalPath10 = LoanOrigination.Utilities
+	EndGlobalSection
+EndGlobal
